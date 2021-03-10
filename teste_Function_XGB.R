@@ -26,7 +26,7 @@ base_recipe <- recipe(
 # veirficar como ficou
 prep(base_recipe)
 
-source("Function_XGBoost.R")
+source("Function_XGBoost_input.R")
 
 tunagem_xgb(base_treino, base_recipe)
 
