@@ -3,8 +3,7 @@ title: "Função para Tunar modelo de XGBoost"
 date: "10/03/2021"
 author: "Rodrigo Almeida Figueira"
 output:
-  rmdformats::readthedown:
-    highlight: kate
+  rmdformats::github_document
 ---
 
 
