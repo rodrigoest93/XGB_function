@@ -2,25 +2,15 @@
 title: "Função para Tunar modelo de XGBoost"
 date: "10/03/2021"
 author: "Rodrigo Almeida Figueira"
-output:
-  rmdformats::github_document
+output: 
+  github_document:
+    toc: true
 ---
 
 
 ```{r setup, include=FALSE}
-library(knitr)
-library(rmdformats)
+knitr::opts_chunk$set(echo = TRUE)
 library(tidymodels)
-## Global options
-options(max.print="75")
-opts_chunk$set(echo=FALSE,
-	             cache=TRUE,
-               prompt=FALSE,
-               tidy=TRUE,
-               comment=NA,
-               message=FALSE,
-               warning=FALSE)
-opts_knit$set(width=75)
 ```
 
 ## Motivação
