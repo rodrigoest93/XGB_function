@@ -1923,7 +1923,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <span id="cb3-4"><a href="#cb3-4"></a>  )</span>
 <span id="cb3-5"><a href="#cb3-5"></a></span>
 <span id="cb3-6"><a href="#cb3-6"></a><span class="kw">set.seed</span>(<span class="dv">100</span>)</span>
-<span id="cb3-7"><a href="#cb3-7"></a>treino_teste &lt;-<span class="st"> </span>base <span class="op">%&gt;%</span><span class="st">  </span><span class="kw">initial_split</span>(<span class="fl">0.05</span>, <span class="dt">strata =</span> desligado)</span>
+<span id="cb3-7"><a href="#cb3-7"></a>treino_teste &lt;-<span class="st"> </span>base <span class="op">%&gt;%</span><span class="st">  </span><span class="kw">initial_split</span>(<span class="fl">0.7</span>, <span class="dt">strata =</span> desligado)</span>
 <span id="cb3-8"><a href="#cb3-8"></a></span>
 <span id="cb3-9"><a href="#cb3-9"></a>base_treino &lt;-<span class="st"> </span><span class="kw">training</span>(treino_teste)</span>
 <span id="cb3-10"><a href="#cb3-10"></a>base_teste &lt;-<span class="st"> </span><span class="kw">testing</span>(treino_teste)</span>

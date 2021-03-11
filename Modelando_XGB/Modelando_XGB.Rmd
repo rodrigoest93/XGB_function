@@ -80,7 +80,7 @@ base <- base %>%
   )
 
 set.seed(100)
-treino_teste <- base %>%  initial_split(0.05, strata = desligado)
+treino_teste <- base %>%  initial_split(0.7, strata = desligado)
 
 base_treino <- training(treino_teste)
 base_teste <- testing(treino_teste)
